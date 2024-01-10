@@ -33,6 +33,7 @@
 								ps.pip
 								ps.virtualenv
 								ps.pyserial
+								ps.intelhex
 								self.packages.${system}.esptool
 							]))
 							platformio
