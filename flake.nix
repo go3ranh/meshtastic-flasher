@@ -15,13 +15,13 @@
 				packages = {
 					esptool = pkgs.python3Packages.buildPythonPackage rec{
 						pname = "esptool";
-						version = "4.6.2";
+						version = "4.7.0";
 						buildInputs = with pkgs.python3Packages; [ ];
 						doCheck = false;
 						src = pkgs.python3Packages.fetchPypi {
 							pname = pname;
 							version = version;
-							sha256 = "sha256-VJ75Pu9C7n6UYs5aU8Ft96DHHZGz934Z7BV0mATN8wA=";
+							sha256 = "sha256-AUVOaeHvNgEhXbg/8ssfx57OZ9JLDl1D1FG0EER8SJM=";
 						};
 					};
 
